@@ -18,6 +18,8 @@ Crea un entorno virtual mediante ``venv``
     ``
     Ahora tienes un directorio (folder) ``env`` creado en tu terminal.
 
+![Image](/Screenshot-Modulo-2/creacion-de-entorno-virtual.png)
+
 * Ejecuta el comando para activar el entorno virtual: ``source env/bin/activate``
 
     ```
@@ -31,6 +33,8 @@ Crea un entorno virtual mediante ``venv``
     # Linux, WSL or macOS
     source env/bin/activate
     ```
+
+![Image](/Screenshot-Modulo-2/activación-de-entorno-virtual.png)
 
 Ahora ves en tu terminal ``(env)``. Eso significa que has activado tu entorno virtual y se ha aislado del resto de tu máquina.
 
@@ -67,6 +71,8 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     six==1.16.0
     ```
 
+![Image](/Screenshot-Modulo-2/pip-freeze-and-pip-install-python-dateutil.png)
+
 ### Desactivar un entorno virtual
 
 Hasta ahora, has creado un entorno virtual y le has agregado un paquete. Sin embargo, es posible que estés trabajando en varios proyectos de Python y necesites cambiar entre ellos. Para hacer eso, debes salir (desactivar) tu entorno virtual.
@@ -77,6 +83,8 @@ deactivate
 ```
 
 Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
+
+![Image](/Screenshot-Modulo-2/deactivate.png)
 
 ¡Felicidades! Has logrado crear y usar correctamente un entorno virtual.
 
